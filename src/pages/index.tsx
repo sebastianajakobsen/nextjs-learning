@@ -1,6 +1,15 @@
+import React, {useEffect} from 'react';
 
-const Index = () => (
-    <div>Hello world</div>
-)
+interface Props {
 
-export default Index
+}
+
+const index: React.FC<Props> = ({}) => {
+    return (
+        <div>
+            Home
+        </div>
+    );
+};
+
+export default index
